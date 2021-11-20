@@ -14,7 +14,7 @@
      @amazon @java
      Scenario: TC02 amazon java arama
        When kullanici amazon sayfasina gider
-       And  java icin arama yapara
+       And  java icin arama yapar
        Then sonucun java icerdigini test eder
        And  sayfayi kapatir
 
@@ -22,6 +22,6 @@
     @amazon @ipad
     Scenario: TC03 amazon ipad  arama
       When kullanici amazon sayfasina gider
-      And  ipad icin arama yapara
+      And  ipad icin arama yapar
       Then sonucun ipad icerdigini test eder
       And  sayfayi kapatir

@@ -11,7 +11,7 @@ import org.junit.runner.RunWith; // @Runwith notasionu juniti kullanmamamiza seb
          glue = "stepdefinitions",
          tags = "@liste",
 
-         dryRun = true
+         dryRun = false
         // dryRun=true dedigimizde testi calistirmadan bize eksik adimi verir.
         // dryRun= false ile arama yapilinca testi calistirir eksik bir adimla karsilasirsa
         // test faild olur ve bize eksik adimi raporlar
